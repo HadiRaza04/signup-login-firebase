@@ -43,7 +43,7 @@ const Signin = () => {
                         onClick={
                             () => showPassword === "password" ? setShowPassword("text") : setShowPassword("password")
                         }
-                        className='inline-block'
+                        className='inline-block cursor-pointer'
                     />
                 </div>
                 <button 
